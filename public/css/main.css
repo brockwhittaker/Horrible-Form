@@ -1,0 +1,58 @@
+* {
+  font-family: "Comic Sans", "Papyrus", cursive;
+}
+
+body {
+  background-image: url(../assets/bg.png);
+  background-size: 50px;
+}
+
+form {
+  padding: 20px;
+  background-color: black;
+}
+
+label {
+  color: #666;
+}
+
+label:hover {
+  opacity: 0;
+}
+
+input[type=text] {
+  font-style: italic;
+  font-size: 1rem;
+  width: 100px;
+  color: pink
+}
+
+input[type=text]:hover {
+  font-size: 4rem;
+  padding: 5px;
+  width: 50px;
+  color: green;
+
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+input[type=text]:focus {
+  opacity: 0.3;
+}
+
+button.submit {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+}
+
+button.submit:hover {
+  width: 20px;
+  height: 20px;
+}
+
+.clicky {
+  font-size: 4rem;
+  display: inline-block;
+}
