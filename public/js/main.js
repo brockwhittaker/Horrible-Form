@@ -30,4 +30,25 @@
     node.innerHTML = "you just clicked again";
     document.body.appendChild(node);
   });
+
+  var letter_groups = document.querySelectorAll(".letter-group");
+  var ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  var letter, label;
+  for (var x = 0; x < letter_groups.length; x++) {
+    for (var y = 0; y < ALPHABET.length; y++) {
+      letter = document.createElement("input");
+      letter.type = "checkbox";
+      letter.value = ALPHABET[y];
+      letter.name = ALPHABET[y];
+      letter.innerHTML = ALPHABET[y];
+
+      label = document.createElement("label");
+      label.for = ALPHABET[y];
+      label.innerHTML = ALPHABET[y];
+
+      letter_groups[x].appendChild(label);
+      letter_groups[x].appendChild(letter);
+    }
+  }
 })();
