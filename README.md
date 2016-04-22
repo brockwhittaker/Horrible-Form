@@ -2,7 +2,7 @@
 
 This is supposed to be a showcase of the shittiest things you can do with HTML, CSS and JavaScript to inconvenience users.
 
-You can view the results here: vancier.com/worst-page/
+You can view the results here: lavancier.com/worst-page/
 
 ##Rules for Contributing
 Make changes and make a pull request, and I'll accept as soon as I can!
