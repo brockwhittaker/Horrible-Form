@@ -32,7 +32,7 @@
   });
 
   var letter_groups = document.querySelectorAll(".letter-group");
-  var ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 -/'";
 
   var letter, label;
   for (var x = 0; x < letter_groups.length; x++) {
