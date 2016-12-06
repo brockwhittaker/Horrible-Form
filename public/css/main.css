@@ -9,7 +9,7 @@ body {
 
 form {
   padding: 20px;
-  background-color: black;
+  background-color: #b48925;
 }
 
 label {
@@ -24,7 +24,16 @@ input[type=text] {
   font-style: italic;
   font-size: 1rem;
   width: 100px;
-  color: pink
+  color: pink;
+  background-color: #3c0;
+}
+
+input[type=number] {
+  font-style: italic;
+  font-size: 1rem;
+  width: 100px;
+  color: pink;
+  background-color: #ab3;
 }
 
 input[type=text]:hover {
@@ -45,6 +54,7 @@ button.submit {
   width: 200px;
   height: 100px;
   padding: 10px;
+  background-color: #ab3;
 }
 
 button.submit:hover {
